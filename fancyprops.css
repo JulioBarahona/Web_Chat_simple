@@ -1,0 +1,52 @@
+/*
+  Julio Barahona M
+  141206
+  Sistemas y tecnologias web
+  Seccion 10
+*/
+
+.chatcont{
+  height: 90vh;
+  background:#162127;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  overflow:scroll;
+}
+
+.messages{
+
+  position: relative;
+  text-align: left;
+  padding: 15px;
+  margin: 1em 0 1em;
+  border: 2px solid #006400;
+  color: #333;
+  background: #9ACD32;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+.sendButton{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+.field{
+  height:80px;
+  height:8vh;
+  text-align: left;
+  bottom: -10px;
+  left: 475px;
+
+}
